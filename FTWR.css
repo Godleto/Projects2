@@ -1,0 +1,491 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+.wrapper{
+    margin: 0 auto;
+}
+.flex_container{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    /*z-index: 1;*/
+    
+}
+.flex_element1{
+    color: black;
+    border: 2px solid black;
+    padding: 12px;
+
+
+}
+.flex_element2{
+    
+    padding: 12px;
+}
+.flex_element3{
+    
+    padding: 12px;
+}
+.flex_element4{
+    
+    padding: 12px;
+}
+.flex_element5{
+    
+    padding: 12px;
+}
+.flex_element6{
+    
+    padding: 12px;
+}
+.flex_element7{
+    
+    padding: 12px;
+}
+.flex_element8{
+    
+    padding: 12px;
+}
+.flex_element9{
+    
+    padding: 12px;
+}
+.flex_element10{
+    
+    padding: 12px;
+}
+.flex_element11{
+    
+    padding: 12px;
+}
+.flex_element12{
+    
+    padding: 12px;
+}
+.flex_element13{
+    
+    padding: 12px;
+}
+.flex_element14{
+    
+    padding: 12px;
+}
+.flex_element15{
+    
+    padding: 12px;
+}
+
+p{
+    /*animation-name: render ;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 1s;*/
+    font-size: 35px;
+    /*color: red;*/
+}
+
+.board{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    /*background-image: url(https://img-cache.oppcdn.com/fixed/29492/assets/4ytOuP_J7lRPUhPZ.jpg);
+    background-repeat: no-repeat;
+    background-position: right;*/
+    background-size: 200px 170px;
+    border-bottom: 15px solid rgb(214, 214, 214);
+
+    transition: top 0.5s ease-in;
+    /*z-index: 9999;*/
+
+    position: absolute;
+    top: -250px;
+}
+.board:hover{
+    top: 0;
+
+}
+.text{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+.follow{
+    color:black;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 35px;
+    /*order: 1;*/
+    text-align: center;
+    /*padding-left: 450px;*/
+    margin-top: 100px;
+}
+.follow:hover{
+    cursor: pointer;
+    color: grey;
+}
+img{
+    padding-top: 50px;
+}
+.soc > img:hover{
+    opacity: 0.5;
+}
+
+@keyframes render{
+    0%{
+        color:black;
+    }
+    25%{
+        color: green;
+    }
+    50%{
+        color: black;
+    }
+    100%{
+        color: black;
+    }
+}
+.a{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+
+}
+.b{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 1.5s;
+}
+.c{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+}
+.d{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 2.5s;
+}
+.f{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+}
+.g{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 3.5s;
+}
+.h{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 4s;
+}
+.p{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 4.5s;
+}
+.o{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 5s;
+}
+.u{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 5.5s;
+}
+.i{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 6s;
+}
+.y{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 6.5s;
+}
+.a1{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 2.5s;
+
+}
+.b1{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+}
+.c1{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 3.5s;
+}
+.d1{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 4s;
+}
+.f1{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 4.5s;
+}
+.g1{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 5s;
+}
+.h1{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 5.5s;
+}
+.p1{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 6s;
+}
+.o1{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 6.5s;
+}
+.u1{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 7s;
+}
+.i1{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 7.5s;
+}
+.y1{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 8s;
+}
+.a2{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+
+}
+.b2{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+}
+.c2{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 1.5s;
+}
+.d2{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+}
+.f2{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 2.5s;
+}
+.g2{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+}
+.h2{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 3.5s;
+}
+.p2{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 4s;
+}
+.o2{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 4.5s;
+}
+.u2{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 5s;
+}
+.i2{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 5.5s;
+}
+.y2{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 6s;
+}
+.a3{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 1.5s;
+
+}
+.b3{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+}
+.c3{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 2.5s;
+}
+.d3{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+}
+.f3{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 3.5s;
+}
+.g3{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 4s;
+}
+.h3{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 4.5s;
+}
+.p3{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 5s;
+}
+.o3{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 5.5s;
+}
+.u3{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 6s;
+}
+.i3{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 6.5s;
+}
+.y3{
+    animation-name: render ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 7s;
+}
